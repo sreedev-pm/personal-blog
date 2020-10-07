@@ -1,0 +1,31 @@
+.blog-template .read_more {
+  text-decoration: underline;
+}
+
+.blog-post {
+  padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .blog-template .media {
+    display: block;
+  }
+  .blog-template .media img {
+    width: 100%;
+  }
+  .blog-template .media-body {
+    margin-top: 10px;
+  }
+
+  .blog-post {
+    padding: 2%;
+  }
+}
+
+@media (min-width: 768px) {
+  .blog-post .main-img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
